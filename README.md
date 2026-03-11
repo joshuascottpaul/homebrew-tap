@@ -6,7 +6,7 @@ This is the Homebrew tap repository for the Billing Intelligence Dashboard proje
 
 ```bash
 # Tap this repository
-brew tap joshuascottpaul/homebrew-tap
+brew tap joshuascottpaul/billing-dashboard-project-homebrew-tap
 
 # Install billing-dashboard
 brew install billing-dashboard
@@ -43,7 +43,7 @@ billing-dashboard help
 
 ```bash
 brew uninstall billing-dashboard
-brew untap joshuascottpaul/homebrew-tap
+brew untap joshuascottpaul/billing-dashboard-project-homebrew-tap
 ```
 
 ## Requirements

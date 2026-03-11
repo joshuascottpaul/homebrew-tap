@@ -26,7 +26,7 @@ The Homebrew tap includes GitHub Actions workflows that automatically update the
 
 ### Step 2: Add Token to Tap Repo Secrets
 
-1. Go to https://github.com/joshuascottpaul/homebrew-tap/settings/secrets/actions
+1. Go to https://github.com/joshuascottpaul/billing-dashboard-project-homebrew-tap/settings/secrets/actions
 2. Click "New repository secret"
 3. Add:
    - Name: `HOMEBREW_TAP_TOKEN`
@@ -43,7 +43,7 @@ The Homebrew tap includes GitHub Actions workflows that automatically update the
 ### Step 4: Enable Workflow Permissions
 
 In the tap repo:
-1. Go to https://github.com/joshuascottpaul/homebrew-tap/settings/actions
+1. Go to https://github.com/joshuascottpaul/billing-dashboard-project-homebrew-tap/settings/actions
 2. Under "Workflow permissions", select "Read and write permissions"
 3. Check "Allow GitHub Actions to create and approve pull requests"
 4. Click "Save"
@@ -53,8 +53,8 @@ In the tap repo:
 If automation fails, update manually:
 
 ```bash
-# In homebrew-tap repo
-cd /path/to/homebrew-tap
+# In billing-dashboard-project-homebrew-tap repo
+cd /path/to/billing-dashboard-project-homebrew-tap
 
 # Get new version SHA256
 curl -sL "https://github.com/joshuascottpaul/billing-dashboard-project/archive/refs/tags/vX.Y.Z.tar.gz" | shasum -a 256
